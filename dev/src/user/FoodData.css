@@ -1,0 +1,45 @@
+/* UploadedDataPage.css */
+
+.uploaded-data-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .card-container {
+    display: flex;
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+  }
+  
+  .card {
+    flex: 0 0 auto;
+    width: 250px; /* Set a fixed width for each card */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 20px; /* Add margin between cards */
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .card-text {
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  .loading-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 20px;
+  }
+  

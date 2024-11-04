@@ -1,0 +1,116 @@
+:root {
+    --headlinesFont: 'Jost', sans-serif;
+    --bodyFont: 'Work Sans', sans-serif;
+    --wildWatermelon: #ff4f87;
+    --fuelYellow: #f0a035;
+    --textColor: #323232;
+    --bodyBg: #d6d6d6;
+    --white: #fff;
+    --black: #000;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:wght@300;400;500;600;700&display=swap');
+
+.frecipe {
+    width: 460px;
+    height: 654px;
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 88px 0 rgba(0, 0, 0, 0.1607843137254902);
+    overflow: hidden;
+    
+}
+
+.recipe-card-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    justify-content: space-around; /* Adjust as needed to control spacing between cards */
+  }
+  
+  .recipe-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: calc(33.33% - 20px); /* Adjust the width based on the desired layout */
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .recipe-card h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .recipe-card p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  .recipe-image {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+  
+  .recipe-ingredients-title {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .recipe-ingredients-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+  }
+  
+  .recipe-ingredient {
+    font-size: 0.9rem;
+    margin: 5px 0;
+  }
+  
+  .recipe-link {
+    display: block;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #007bff;
+    margin-top: 10px;
+  }
+  
+  .recipe-no-data {
+    font-size: 1rem;
+    font-style: italic;
+    color: #888;
+    margin: 10px 0;
+  }
+
+  
+  .form_button {
+    color: #171717;
+    border:#000;
+    border-radius: 60px;
+    padding: 14px 16px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px;
+    
+}
+
+.f-card {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .f-card:hover {
+    background-color: lightblue;
+  }
+  

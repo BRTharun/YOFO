@@ -1,0 +1,96 @@
+
+.circles {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+.circle1 {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(45deg, #ff0099, #7a0ed6);
+    border-radius: 50%;
+    position: absolute;
+    top: -100px;
+    right: -155px;
+}
+
+.circle2 {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(45deg, #ff237b, #f64838);
+    border-radius: 50%;
+    position: absolute;
+    bottom: -90px;
+    left: -70px;
+}
+
+.dlogin_form {
+    margin-left: 850px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    color: #f6f3f3;
+    padding: 40px 26px;
+    width: 400px;
+    /*height: 300px;*/
+    background-color: rgba(255, 255, 255, 0.149);
+    backdrop-filter: blur(2px);
+    
+}
+
+
+.dlogin_form h3 {
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #000000;
+}
+
+.dlogin_form p {
+    margin-top: 0;
+    margin-bottom: 26px;
+}
+
+
+.dlogin_form input {
+    color: #000000;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    padding: 14px 16px;
+    margin-bottom: 30px;
+    
+}
+
+.dlogin_form input:focus {
+    outline: none;
+    border-color: #fff;
+}
+
+.dlogin_form button {
+    background: linear-gradient(45deg, #06156d, #0195ff);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 14px 16px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px;
+    
+}
+
+
+.dlogin_form input::placeholder {
+    color: #a6a6a6; /* Set the placeholder color to white */
+}
+/*.login_form button:focus {
+    outline: none;
+    box-shadow: 0 0 15px #ff0d45;
+}*/

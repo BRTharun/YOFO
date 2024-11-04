@@ -1,0 +1,6 @@
+/dev.zip
+/archive
+best_model_3class - Copy.hdf5
+model_trained_102.hdf5
+*.hdf5
+*.h5

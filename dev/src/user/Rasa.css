@@ -1,0 +1,68 @@
+/* Rasa.css */
+
+/* ... (previous styles remain unchanged) */
+
+.question-number {
+    margin-bottom: 20px;
+  }
+  
+  .option-button {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .option-button:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .selected {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .next-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .next-button:hover {
+    background-color: #45a049;
+  }
+
+  /* Rasa.css */
+
+/* ... (previous styles remain unchanged) */
+
+.result-container {
+    text-align: center;
+  }
+  
+  .result-heading {
+    color: #333;
+  }
+  
+  .restart-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .restart-button:hover {
+    background-color: #45a049;
+  }
+  
+  
